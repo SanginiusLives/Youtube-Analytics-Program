@@ -1,0 +1,20 @@
+﻿YOUTUBE ANALYTICS PROGRAM
+
+
+The Youtube Analytics Program would be run off React for the front-end and node for the back-end, with most of the focus being on the front-end of the website being the primary focus of the project. 
+
+
+This website’s ultimate goal is to display analytics of videos through the youtube analytics API, going onto the site would allow one to search for a video and see public analytical data regarding it. Users would be allowed to save data for future use such as comparing other videos or performing other research that they may want. This data should be in-depth and easy to follow, allowing for visualization of certain aspects of the videos. After a user saves a video to a playlist, it should show the most used keywords associated with the videos, total views and impressions of all the videos, and a combination of other necessary surface data.
+
+
+User’s visiting this app may be content creators seeking to do market research on other videos that may either be trending or see what is currently performing the best on YouTube. Other users could include those who do marketing on the platform or those just curious in the analytics that may be available, but the primary goal is to help content creators see what is doing the best so they may better focus their efforts for providing said content.
+
+
+This website would use the Youtube Analytics API which can be found here:
+https://developers.google.com/youtube/analytics
+
+
+The Youtube Analytics Program would follow a basic database schema with a connection to the server that would pull the Youtube API from online and then have a separate backend for storing data that the user may want to keep. The biggest issue with this API, however, is that the API requires one to specify what metrics to look for rather than return a simple json response with key data to sort through.
+
+
+As such the user experience may turn to seeing what metrics they would want to see then report that data rather than giving all the basic data that may just be surface level at most.

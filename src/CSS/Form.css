@@ -1,0 +1,19 @@
+input {
+    padding: 10px 15px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+form button {
+    margin-top: 10px;
+    display: block;
+}
+
+form button:hover {
+    color: #f0f0f0;
+    background-color: #000;
+}
+
+.headerForm button {
+    display: none;
+}

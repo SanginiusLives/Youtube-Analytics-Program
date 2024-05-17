@@ -1,0 +1,13 @@
+.center {
+    text-align: center;
+}
+
+.center h2 {
+    margin-bottom: 50px;
+}
+
+.center button {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}

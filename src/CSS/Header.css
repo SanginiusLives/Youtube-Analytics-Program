@@ -1,0 +1,22 @@
+header {
+    background-color: rgb(209, 87, 87);
+    padding: 30px;
+    margin-bottom: 100px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 2em;
+    margin: unset;
+    font-weight: 800;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header .flex {
+    display: flex;
+    justify-content: space-between;
+}
